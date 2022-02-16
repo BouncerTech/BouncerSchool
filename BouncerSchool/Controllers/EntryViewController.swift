@@ -118,28 +118,21 @@ class EntryViewController: UIViewController {
             return
         }
         
-        //*Documentation Refrence:
-        ///'https://firebase.google.com/docs/auth/ios/password-auth#create_a_password-based_account'
-        Auth.auth().createUser(withEmail: emailText, password: passwordText) { [self] result, e in
+        AuthManager.shared.createAccount(email: emailText, password: passwordText) { e, uid, email in
             if let e = e{
-                print(e.localizedDescription)
+                print("DEBUG: Error creating account - \(e.localizedDescription)")
             }
             
-            if let email = result?.user.email{
-                userResponseLabel.text = "Thanks for signing up, \(email) 😇"
-                view.addSubview(userResponseLabel)
-                userResponseLabel.centerX(inView: view, topAnchor: view.topAnchor, paddingTop: .makeHeight(150))
-                
-                //This pauses code for 1.5 secs
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                    //This code takes you to a new screen
-                    navigationController?.pushViewController(secondVC, animated: true)
+            if let uid = uid, let email = email{
+                //Create Firestore DOC
+                AuthManager.shared.createFirestoreDoc(uid: uid, email: email) { e in
+                    if let e = e{
+                        print("DEBUG: Error creating firestore doc - \(e.localizedDescription)")
+                    }else{
+                        let controller = PhotoViewController(uid: uid)
+                        self.navigationController?.pushViewController(controller, animated: true)
+                    }
                 }
-                
-            }else{
-                userResponseLabel.text = "Failed to create account 😭"
-                view.addSubview(userResponseLabel)
-                userResponseLabel.centerX(inView: view, topAnchor: view.topAnchor, paddingTop: .makeHeight(150))
             }
         }
     }

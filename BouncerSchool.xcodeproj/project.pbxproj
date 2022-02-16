@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A483BE2527B779AE005E2AFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE2427B779AE005E2AFB /* ViewController.swift */; };
 		A483BE2827B779AE005E2AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A483BE2627B779AE005E2AFB /* Main.storyboard */; };
 		A483BE2A27B779B1005E2AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A483BE2927B779B1005E2AFB /* Assets.xcassets */; };
 		A483BE2D27B779B1005E2AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A483BE2B27B779B1005E2AFB /* LaunchScreen.storyboard */; };
@@ -23,6 +22,10 @@
 		A483BE4C27B77AA4005E2AFB /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE4127B77AA4005E2AFB /* Cell.swift */; };
 		A483BE4D27B77AA4005E2AFB /* MyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE4227B77AA4005E2AFB /* MyCollectionView.swift */; };
 		A483BE4F27B77B31005E2AFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A483BE4E27B77B31005E2AFB /* GoogleService-Info.plist */; };
+		A483BE5227B783E1005E2AFB /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE5127B783E1005E2AFB /* AuthManager.swift */; };
+		A483BE5427B78AE5005E2AFB /* FirebaseHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE5327B78AE5005E2AFB /* FirebaseHelpers.swift */; };
+		A483BE5627B78F14005E2AFB /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE5527B78F14005E2AFB /* UserManager.swift */; };
+		A483BE5827B78FF8005E2AFB /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE5727B78FF8005E2AFB /* PhotoViewController.swift */; };
 		BC013F38B5FB5BC11450F3E8 /* Pods_BouncerSchool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EBDC9A27BC9E7845A42FEE /* Pods_BouncerSchool.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +33,6 @@
 		43FBE82BFBF0A6E45E65E080 /* Pods-BouncerSchool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BouncerSchool.debug.xcconfig"; path = "Target Support Files/Pods-BouncerSchool/Pods-BouncerSchool.debug.xcconfig"; sourceTree = "<group>"; };
 		6373D6B612B7C0BF73A92BBF /* Pods-BouncerSchool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BouncerSchool.release.xcconfig"; path = "Target Support Files/Pods-BouncerSchool/Pods-BouncerSchool.release.xcconfig"; sourceTree = "<group>"; };
 		A483BE1D27B779AE005E2AFB /* BouncerSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncerSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A483BE2427B779AE005E2AFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A483BE2727B779AE005E2AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A483BE2927B779B1005E2AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A483BE2C27B779B1005E2AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		A483BE4127B77AA4005E2AFB /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		A483BE4227B77AA4005E2AFB /* MyCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionView.swift; sourceTree = "<group>"; };
 		A483BE4E27B77B31005E2AFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A483BE5127B783E1005E2AFB /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		A483BE5327B78AE5005E2AFB /* FirebaseHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelpers.swift; sourceTree = "<group>"; };
+		A483BE5527B78F14005E2AFB /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		A483BE5727B78FF8005E2AFB /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		B8EBDC9A27BC9E7845A42FEE /* Pods_BouncerSchool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BouncerSchool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,7 +74,6 @@
 				43FBE82BFBF0A6E45E65E080 /* Pods-BouncerSchool.debug.xcconfig */,
 				6373D6B612B7C0BF73A92BBF /* Pods-BouncerSchool.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -101,12 +106,12 @@
 		A483BE1F27B779AE005E2AFB /* BouncerSchool */ = {
 			isa = PBXGroup;
 			children = (
+				A483BE5027B783CB005E2AFB /* AppManagers */,
 				A483BE3827B77AA4005E2AFB /* SceneDelegate.swift */,
 				A483BE3F27B77AA4005E2AFB /* AppDelegate.swift */,
 				A483BE4027B77AA4005E2AFB /* CollectionView */,
 				A483BE3927B77AA4005E2AFB /* Controllers */,
 				A483BE3427B77AA4005E2AFB /* Helpers */,
-				A483BE2427B779AE005E2AFB /* ViewController.swift */,
 				A483BE2627B779AE005E2AFB /* Main.storyboard */,
 				A483BE2927B779B1005E2AFB /* Assets.xcassets */,
 				A483BE2B27B779B1005E2AFB /* LaunchScreen.storyboard */,
@@ -122,6 +127,7 @@
 				A483BE3527B77AA4005E2AFB /* Layout.swift */,
 				A483BE3627B77AA4005E2AFB /* Colors.swift */,
 				A483BE3727B77AA4005E2AFB /* BackButtons.swift */,
+				A483BE5327B78AE5005E2AFB /* FirebaseHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -129,9 +135,10 @@
 		A483BE3927B77AA4005E2AFB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A483BE3A27B77AA4005E2AFB /* EntryViewController.swift */,
-				A483BE3B27B77AA4005E2AFB /* SecondViewController.swift */,
 				A483BE3C27B77AA4005E2AFB /* Views */,
+				A483BE3A27B77AA4005E2AFB /* EntryViewController.swift */,
+				A483BE5727B78FF8005E2AFB /* PhotoViewController.swift */,
+				A483BE3B27B77AA4005E2AFB /* SecondViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -152,6 +159,15 @@
 				A483BE4227B77AA4005E2AFB /* MyCollectionView.swift */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		A483BE5027B783CB005E2AFB /* AppManagers */ = {
+			isa = PBXGroup;
+			children = (
+				A483BE5127B783E1005E2AFB /* AuthManager.swift */,
+				A483BE5527B78F14005E2AFB /* UserManager.swift */,
+			);
+			path = AppManagers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,17 +287,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A483BE4B27B77AA4005E2AFB /* AppDelegate.swift in Sources */,
-				A483BE2527B779AE005E2AFB /* ViewController.swift in Sources */,
 				A483BE4627B77AA4005E2AFB /* SceneDelegate.swift in Sources */,
+				A483BE5627B78F14005E2AFB /* UserManager.swift in Sources */,
+				A483BE5227B783E1005E2AFB /* AuthManager.swift in Sources */,
 				A483BE4427B77AA4005E2AFB /* Colors.swift in Sources */,
 				A483BE4927B77AA4005E2AFB /* TextField.swift in Sources */,
 				A483BE4C27B77AA4005E2AFB /* Cell.swift in Sources */,
 				A483BE4827B77AA4005E2AFB /* SecondViewController.swift in Sources */,
 				A483BE4327B77AA4005E2AFB /* Layout.swift in Sources */,
 				A483BE4727B77AA4005E2AFB /* EntryViewController.swift in Sources */,
+				A483BE5427B78AE5005E2AFB /* FirebaseHelpers.swift in Sources */,
 				A483BE4527B77AA4005E2AFB /* BackButtons.swift in Sources */,
 				A483BE4D27B77AA4005E2AFB /* MyCollectionView.swift in Sources */,
 				A483BE4A27B77AA4005E2AFB /* Button.swift in Sources */,
+				A483BE5827B78FF8005E2AFB /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +453,7 @@
 				DEVELOPMENT_TEAM = 9U9G99R68J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BouncerSchool/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "GIMME YOUR PHOTOS!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -463,6 +483,7 @@
 				DEVELOPMENT_TEAM = 9U9G99R68J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BouncerSchool/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "GIMME YOUR PHOTOS!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
