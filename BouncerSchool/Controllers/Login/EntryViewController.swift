@@ -10,18 +10,18 @@ import Firebase
 
 class EntryViewController: UIViewController {
     
+    let secondVC = SecondViewController()
+    
     var loginButton: Button!
     var signUpButton: Button!
-    let secondVC = SecondViewController()
+    var emailTextField: TextField!
+    var passwordTextField: TextField!
     
     let userResponseLabel: UILabel = {
         let label = UILabel()
         label.textColor = .cyan
         return label
     }()
-    
-    var emailTextField: TextField!
-    var passwordTextField: TextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,9 +67,9 @@ class EntryViewController: UIViewController {
     }
     
         
-    @objc func dismissAKeyboard() {
-        view.endEditing(true)
-    }
+   
+    
+    //MARK: Sign In (Existing Account)
     
     @objc func loginPressed(sender: UIButton){
         guard let emailText = emailTextField.text else {
@@ -95,7 +95,9 @@ class EntryViewController: UIViewController {
                 //This pauses code for 1.5 secs
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                     //This code takes you to a new screen
-                    navigationController?.pushViewController(secondVC, animated: true)
+                    let tabBarController = UITabBarController()
+                    
+                    self.navigationController?.pushViewController(tabBarController, animated: true)
                 }
                 
             }else{
@@ -106,6 +108,8 @@ class EntryViewController: UIViewController {
         }
     }
     
+    
+    //MARK: Sign Up (New Account)
     
     @objc func signUpPressed(sender: UIButton){
         guard let emailText = emailTextField.text else {
@@ -135,6 +139,10 @@ class EntryViewController: UIViewController {
                 }
             }
         }
+    }
+    
+    @objc func dismissAKeyboard() {
+        view.endEditing(true)
     }
 }
 

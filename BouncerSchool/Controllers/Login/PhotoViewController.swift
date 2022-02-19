@@ -19,10 +19,6 @@ class PhotoViewController: UIViewController{
         self.uid = uid
     }
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -49,10 +45,18 @@ class PhotoViewController: UIViewController{
                 if let e = e{
                     print("DEBUG: Error uploading image: \(e.localizedDescription)")
                 }else{
+                    
+                    let tabBarController = UITabBarController()
+                    self.navigationController?.pushViewController(tabBarController, animated: true)
+            
                     //MARK: MAKE TAB SCREEN
                 }
             }
         }
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }
 
