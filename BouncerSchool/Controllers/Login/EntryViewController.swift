@@ -10,7 +10,7 @@ import Firebase
 
 class EntryViewController: UIViewController {
     
-    let secondVC = SecondViewController()
+//    let secondVC = SecondViewController()
     
     var loginButton: Button!
     var signUpButton: Button!

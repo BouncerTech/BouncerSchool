@@ -14,6 +14,7 @@
 		A43678F627BCC8E10077582A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43678F527BCC8E10077582A /* CameraViewController.swift */; };
 		A43678FF27BCD4CB0077582A /* ProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43678FE27BCD4CB0077582A /* ProfileButton.swift */; };
 		A436790127BCDBA90077582A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436790027BCDBA90077582A /* MapView.swift */; };
+		A45346F427C0B7A30031D387 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45346F327C0B7A30031D387 /* UserModel.swift */; };
 		A483BE2827B779AE005E2AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A483BE2627B779AE005E2AFB /* Main.storyboard */; };
 		A483BE2A27B779B1005E2AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A483BE2927B779B1005E2AFB /* Assets.xcassets */; };
 		A483BE2D27B779B1005E2AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A483BE2B27B779B1005E2AFB /* LaunchScreen.storyboard */; };
@@ -26,7 +27,7 @@
 		A483BE4927B77AA4005E2AFB /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE3D27B77AA4005E2AFB /* TextField.swift */; };
 		A483BE4A27B77AA4005E2AFB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE3E27B77AA4005E2AFB /* Button.swift */; };
 		A483BE4B27B77AA4005E2AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE3F27B77AA4005E2AFB /* AppDelegate.swift */; };
-		A483BE4C27B77AA4005E2AFB /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE4127B77AA4005E2AFB /* Cell.swift */; };
+		A483BE4C27B77AA4005E2AFB /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE4127B77AA4005E2AFB /* MessageCell.swift */; };
 		A483BE4D27B77AA4005E2AFB /* MyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE4227B77AA4005E2AFB /* MyCollectionView.swift */; };
 		A483BE4F27B77B31005E2AFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A483BE4E27B77B31005E2AFB /* GoogleService-Info.plist */; };
 		A483BE5227B783E1005E2AFB /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483BE5127B783E1005E2AFB /* AuthManager.swift */; };
@@ -47,6 +48,7 @@
 		A43678F527BCC8E10077582A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A43678FE27BCD4CB0077582A /* ProfileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButton.swift; sourceTree = "<group>"; };
 		A436790027BCDBA90077582A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A45346F327C0B7A30031D387 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		A483BE1D27B779AE005E2AFB /* BouncerSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncerSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A483BE2727B779AE005E2AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A483BE2927B779B1005E2AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +63,7 @@
 		A483BE3D27B77AA4005E2AFB /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		A483BE3E27B77AA4005E2AFB /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		A483BE3F27B77AA4005E2AFB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../Desktop/SwiftCollectionViews/SwiftCollectionViews/AppDelegate.swift; sourceTree = "<group>"; };
-		A483BE4127B77AA4005E2AFB /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		A483BE4127B77AA4005E2AFB /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		A483BE4227B77AA4005E2AFB /* MyCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionView.swift; sourceTree = "<group>"; };
 		A483BE4E27B77B31005E2AFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A483BE5127B783E1005E2AFB /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
@@ -155,6 +157,14 @@
 			path = HomeViews;
 			sourceTree = "<group>";
 		};
+		A45346F527C0B7AA0031D387 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A45346F327C0B7A30031D387 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A483BE1427B779AE005E2AFB = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +190,7 @@
 				A483BE3827B77AA4005E2AFB /* SceneDelegate.swift */,
 				A483BE3F27B77AA4005E2AFB /* AppDelegate.swift */,
 				A483BE4027B77AA4005E2AFB /* CollectionView */,
+				A45346F527C0B7AA0031D387 /* Models */,
 				A483BE3927B77AA4005E2AFB /* Controllers */,
 				A483BE3427B77AA4005E2AFB /* Helpers */,
 				A483BE3C27B77AA4005E2AFB /* Universals Views */,
@@ -206,7 +217,6 @@
 		A483BE3927B77AA4005E2AFB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A483BE3B27B77AA4005E2AFB /* SecondViewController.swift */,
 				A43678F727BCD44E0077582A /* Login */,
 				A43678F827BCD46D0077582A /* Home */,
 				A43678F927BCD4760077582A /* Message */,
@@ -229,7 +239,8 @@
 		A483BE4027B77AA4005E2AFB /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				A483BE4127B77AA4005E2AFB /* Cell.swift */,
+				A483BE3B27B77AA4005E2AFB /* SecondViewController.swift */,
+				A483BE4127B77AA4005E2AFB /* MessageCell.swift */,
 				A483BE4227B77AA4005E2AFB /* MyCollectionView.swift */,
 			);
 			path = CollectionView;
@@ -377,10 +388,11 @@
 				A483BE4627B77AA4005E2AFB /* SceneDelegate.swift in Sources */,
 				A483BE5627B78F14005E2AFB /* UserManager.swift in Sources */,
 				A483BE5227B783E1005E2AFB /* AuthManager.swift in Sources */,
+				A45346F427C0B7A30031D387 /* UserModel.swift in Sources */,
 				A483BE4427B77AA4005E2AFB /* Colors.swift in Sources */,
 				A483BE4927B77AA4005E2AFB /* TextField.swift in Sources */,
 				A43678F027BCC8C60077582A /* MessengerViewController.swift in Sources */,
-				A483BE4C27B77AA4005E2AFB /* Cell.swift in Sources */,
+				A483BE4C27B77AA4005E2AFB /* MessageCell.swift in Sources */,
 				A483BE4827B77AA4005E2AFB /* SecondViewController.swift in Sources */,
 				A483BE4327B77AA4005E2AFB /* Layout.swift in Sources */,
 				A4F0744C27BE25E2005A7323 /* MessagesCollectionView.swift in Sources */,

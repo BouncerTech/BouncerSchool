@@ -21,8 +21,6 @@ class HomeTabBarController: UITabBarController{
         
         self.profileButton = ProfileButton(home: self)
         
-        
-        
         ///MAP
         let mapVC = MapViewController()
         let mapIcon = UITabBarItem(title: "Map",
